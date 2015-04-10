@@ -12,6 +12,11 @@ public class Person {
         this.name = name;
     }
 
+    public Person(String name, String city) {
+        this.name = name;
+        this.city = city;
+    }
+
     public String getCity() {
         return city;
     }

@@ -92,13 +92,12 @@ public class Unit0Tests {
     }
 
     public static Person declareAndReturnPersonNamedAda() {
-        Person ada = new Person("Ada");
-        return ada;
+
+        return new Person("Ada");
     }
 
     public static Person declareAndReturnPersonNamedAlanTuringFromLondon() {
-        Person alan = new Person("Alan Turing", "London");
-        return alan;
+        return new Person("Alan Turing", "London");
     }
 
     public static boolean isFromLondon(Person person) {
@@ -155,8 +154,6 @@ public class Unit0Tests {
 
         System.out.println(sum);
     }
-
-
 
     public static void bonusPrintOutSumOfFirstFortyFibonacciNumbers() {
         long sum = 0;
